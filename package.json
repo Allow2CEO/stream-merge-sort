@@ -1,0 +1,22 @@
+{
+    "name": "stream-merge-sort",
+    "version": "0.1",
+    "description": "Create a stream that emits events from multiple other streams in a specific order",
+    "main": "index.js",
+    "files": [
+        "index.js"
+    ],
+    "scripts": {
+        "test": "istanbul cover test.js && istanbul check-cover --statements 100 --branches 100"
+    },
+    "repository": "allow2ceo/stream-merge-sort",
+    "author": "Allow2 <ceo@allow2.com>",
+    "license": "MIT",
+    "dependencies": {
+        "through2": "^0.6.1"
+    },
+    "devDependencies": {
+        "from2": "^1.2.0",
+        "istanbul": "^0.3.2"
+    }
+}
